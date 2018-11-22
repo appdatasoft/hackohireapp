@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>check_icon_blue_light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check_icon_blue" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
+            <circle id="Oval" stroke="#00BFFF" stroke-width="2" fill="#FFFFFF" cx="10" cy="10" r="10"></circle>
+            <path d="M8.36611851,13.4738402 L8.63523967,13.7624775 C8.93092551,14.0796059 9.41036464,14.0790497 9.70639357,13.7615533 L14.5277969,8.59051133 C14.8236357,8.27321894 14.8242116,7.75866542 14.5286586,7.44167946 L14.394098,7.29736081 C14.0241479,6.90058264 13.4242823,6.90096065 13.054079,7.29801031 L9.17432865,11.4591125 L7.61662498,9.78844727 C7.24715808,9.39218736 6.64739225,9.3920908 6.27752345,9.78878175 C5.90757333,10.1855599 5.90751503,10.8284861 6.27721159,11.2249923 L8.30484721,13.399668 C8.3236191,13.4253846 8.34404274,13.4501635 8.36611851,13.4738402 Z" id="Shape" fill="#00BFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,56 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "website-20181121154716-authRole",
+			"UnauthRoleArn": "arn:aws:iam::952688900279:role/website-20181121154716-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::952688900279:role/website-20181121154716-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "website-20181121154716-deployment",
+			"UnauthRoleName": "website-20181121154716-unauthRole",
+			"StackName": "website-20181121154716",
+			"StackId": "arn:aws:cloudformation:us-east-1:952688900279:stack/website-20181121154716/c92f2ae0-ede7-11e8-97d7-121b5b00f9e8"
+		}
+	},
+	"auth": {
+		"cognitoaa1ee604": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/website-20181121154716-deployment/amplify-cfn-templates/auth/cognitoaa1ee604-cloudformation-template.yml",
+				"logicalId": "authcognitoaa1ee604"
+			},
+			"lastPushTimeStamp": "2018-11-22T00:15:55.879Z",
+			"output": {
+				"AppClientSecret": "69n581miomf7r6oa6qlr6t81rrokbgpntttavqav674m945rgje",
+				"UserPoolId": "us-east-1_hOzE7BiQj",
+				"AppClientIDWeb": "47096om2rs19hq7dhfe0tpo705",
+				"AppClientID": "6f7hv9jf72qh0vajbu0sork0li",
+				"IdentityPoolId": "us-east-1:445e9cca-d77f-4105-b906-8b3e39c6bfe8",
+				"IdentityPoolName": "cognitoaa1ee604_identitypool_aa1ee604",
+				"UserPoolName": "cognitoaa1ee604_userpool_aa1ee604"
+			},
+			"lastPushDirHash": "vyFQar1zFrnVQkFc2BP9KpIh+Xo="
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/website-20181121154716-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-11-22T00:15:55.889Z",
+			"output": {
+				"CloudFrontSecureURL": "https://d371kiirq5a7hl.cloudfront.net",
+				"S3BucketSecureURL": "https://website-20181121155214--hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://website-20181121155214--hostingbucket.s3-website-us-east-1.amazonaws.com",
+				"CloudFrontDistributionID": "E3OXWWPDMTL1RZ",
+				"Region": "us-east-1",
+				"HostingBucketName": "website-20181121155214--hostingbucket",
+				"CloudFrontDomainName": "d371kiirq5a7hl.cloudfront.net"
+			},
+			"lastPushDirHash": "bXADm4A+/3ZUay9q51gqLfvsgBo="
+		}
+	}
+}
